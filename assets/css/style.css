@@ -1,5 +1,5 @@
 * {
-    background-color: rgba(43, 46, 43, 0.767);
+    background-color: rgba(63, 75, 78, 0.726);
     font: rgba(15, 14, 15, 0.431);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
@@ -11,6 +11,7 @@ header {
     width: 100%;
     height: 10%;
     padding: 8px 0px 8px 0;
+    background: rgba(255,0,255,0.3);
 }
 
 nav {
@@ -30,7 +31,7 @@ nav ul li {
 }
 
 .about {
-    width: 65%;
+    width: 60%;
     height: fit-content;
     margin: 10px auto 10px auto;
     color: darkgray;
@@ -40,34 +41,39 @@ nav ul li {
 }
 
 .about img {
+   float: left;
+}
+.imgme {
     width: 250px;
     height: 230px;
     padding: 12px;
-    vertical-align: middle;
     border-top: 5px double black;
     border-right: 5px double black;
     border-bottom: 5px double rgb(102, 101, 101);
     border-left: 5px double rgb(102, 101, 101);
-    position: relative;
 }
 
 .about p {
+text-align: center;
+margin-top: 40px;
+}
+
+.pme {
     color: black;
     font-weight: bolder;
+    font-size: large;
     line-height: 1;
     background: transparent;
     border: none;
-    align-content: right;
-
 }
 
 .recent-work {
-    width: 95%;
-    height: 700px;
+    width: 70%;
+    height: 600px;
     margin: 15px auto 15px auto;
     color: darkgray;
     border: hidden;
-    background: transparent purple;
+    background: rgba(255,0,255,0.3);
     overflow: auto;
 }
 
@@ -78,48 +84,66 @@ nav ul li {
     margin: 15px 10px 10px 10px;
     border: 3px solid black;
     display: inline;
-    justify-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
+.runbudimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+} 
 a img {
-    width: 400px;
-    height: 350px;
+    height: 450px;
     padding: 8px;
     border: 5px double black;
 }
 
-.example .future {
-    width: 350px;
+.run-buddy-p {
+    float: ;
+    text-align: center;
+}
+
+.future {
     height: 275px;
     padding: 8px;
     border: 5px double black
 }
 
-.contact-me {
-    width: 65%;
-    height: fit-content;
+.example img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(purple black white);
+    width: 35%;
+}
+
+.contact-me {
+    width: 65%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255,0,255,0.3);
     
 }
 
 .contact-me ul {
-    display: inline-block;
     margin: 15px 10px 15px 10px;
 }
 
 .contact-me ul li {
-    display: inline;
     justify-content: center;
 }
 
 footer {
-    background-image: url(../pictures/5b5e0f5704e4715a76a50e096722fa8d\ \(2\).jpg);
+    background-color: rgba(255,0,255,0.3);
     width: 100%;
-    height: 125px;
+    height: 30px;
     margin: 15px 0 0 0;
+}
+
+footer span {
+    text-align: center;
 }
 
 
