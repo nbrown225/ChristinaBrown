@@ -1,5 +1,4 @@
 * {
-    background-color: rgba(63, 75, 78, 0.726);
     font: rgba(15, 14, 15, 0.431);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
@@ -7,38 +6,61 @@
     padding: 0;
 }
 
+body {
+    background: #5c5470; 
+}
+
+h1 {
+    background: rgba(255,0,255,0.3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#section-underline {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(69, 8, 75);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#head3 {
+    text-align: center;
+}
+
 header {
     width: 100%;
     height: 10%;
-    padding: 8px 0px 8px 0;
-    background: rgba(255,0,255,0.3);
+    padding: 0 0px 8px 0;
+    text-align: center;
+    
 }
 
 nav {
-    margin: 5px 0;
+    background: rgba(255,0,255,0.3);
 }
 
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 nav ul li {
     font-weight: bold;
     font-size: medium;
+    list-style: none;
 }
 
 .about {
     width: 60%;
-    height: fit-content;
+    height: 30%;
     margin: 10px auto 10px auto;
     color: darkgray;
     border: hidden;
     background-image: url("../pictures/CloudImage.jpg");
     overflow: auto;
 }
+
 
 .about img {
    float: left;
@@ -47,6 +69,7 @@ nav ul li {
     width: 250px;
     height: 230px;
     padding: 12px;
+    margin: auto auto 10px 30px;
     border-top: 5px double black;
     border-right: 5px double black;
     border-bottom: 5px double rgb(102, 101, 101);
@@ -69,30 +92,18 @@ margin-top: 40px;
 
 .recent-work {
     width: 70%;
-    height: 600px;
+    height: 65%;
     margin: 15px auto 15px auto;
-    color: darkgray;
-    border: hidden;
+    border: 12px double;
     background: rgba(255,0,255,0.3);
     overflow: auto;
-}
-
-
-.recent-work .example {
-    width: 25vw;
-    height: 25vw;
-    margin: 15px 10px 10px 10px;
-    border: 3px solid black;
-    display: inline;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .runbudimg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 100px;
 } 
 a img {
     height: 450px;
@@ -100,9 +111,9 @@ a img {
     border: 5px double black;
 }
 
-.run-buddy-p {
-    float: ;
+.work-p {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .future {
@@ -115,12 +126,13 @@ a img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
     width: 35%;
 }
 
 .contact-me {
     width: 65%;
-    height: 200px;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
     background: rgba(255,0,255,0.3);
@@ -128,18 +140,26 @@ a img {
 }
 
 .contact-me ul {
-    margin: 15px 10px 15px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .contact-me ul li {
-    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer {
     background-color: rgba(255,0,255,0.3);
-    width: 100%;
-    height: 30px;
-    margin: 15px 0 0 0;
+    width: 30%;
+    height: 10%;
+    padding: 0 0px 8px 0;
+    margin: 20px auto 0 auto;
+    text-align: center;
 }
 
 footer span {
