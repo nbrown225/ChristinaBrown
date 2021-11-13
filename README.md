@@ -2,7 +2,16 @@
 
 ## About this project
     This project is to create a responsive portfolio. this site must have working nav links and showcase examples of recent/future projects. 
-
+- [Professional Portfolio Project](#professional-portfolio-project)
+  - [About this project](#about-this-project)
+  - [Website link and screenshot](#website-link-and-screenshot)
+      - [Portfolio link](#portfolio-link)
+      - [Planned website vs Outcome](#planned-website-vs-outcome)
+  - [Recources](#recources)
+  - [REQUIREMENTS](#requirements)
+  - [PROCESS TO COMPLETE REQUIREMENTS](#process-to-complete-requirements)
+  - [Contributors](#contributors)
+  
 
 ## Website link and screenshot
 #### Portfolio link
