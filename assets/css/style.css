@@ -81,7 +81,7 @@ text-align: center;
 margin-top: 40px;
 }
 
-.pme {
+/*.pme {
     color: black;
     font-weight: bolder;
     font-size: large;
@@ -89,6 +89,7 @@ margin-top: 40px;
     background: transparent;
     border: none;
 }
+*/
 
 .recent-work {
     width: 70%;

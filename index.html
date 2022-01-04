@@ -6,32 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christina Brown's Portfolio</title>
     <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
 </head>
 <body>
-    <header>
-        <h1><span>CHRISTINA BROWN</span></h1>
-    
     <nav>
-        <ul>
-            <li>
-                <a href="#about-me">ABOUT ME</a>
-            </li>
-            <li>
-                <a href="#work">RECENT WORK</a>
-            </li>
-            <li>
-                <a href="#contact">CONTACT ME</a>
-            </li>
-        </ul>
-    </nav>
+        <div class="nav-wrapper pink">
+          <a href="#" class="brand-logo">CHRISTINA BROWN</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#about-me" class="waves-effect waves-purple">ABOUT ME</a></li>
+            <li><a href="#work" class="waves-effect waves-purple">RECENT WORK</a></li>
+            <li><a href="#contact" class="waves-effect waves-purple">CONTACT ME</a></li>
+          </ul>
+        </div>
+      </nav>
 </header>
     <section id="about-me" class="about">
-        <h2 id="section-underline">About Me!!</h2>
-        <img class="imgme" src="./assets/pictures/aboutMePic.jfif" alt="photo of me">
-        <p class="pme">Hello!
+    <div class="row">
+        <div class="col s12">
+            <h2 id="section-underline">About Me!!</h2>
+        </div>
+        <div class="col s6">
+            <img class="imgme" src="./assets/pictures/aboutMePic.jfif" alt="photo of me">
+        </div>
+        <div class="col s6 black-text">  
+            <p class="pme">Hello!
             I'm an aspiring full stack web developer and artist. 
             When I'm not on my laptop working on code, I'm most likely elbow deep in art supplies!
-        </p>
+            </p>
+        </div>
+      </div>
     </section>
 
     <section id="work" class="recent-work">
@@ -71,6 +75,7 @@
     <footer>
         <span>❤️Thanks for visiting! CENTER ME❤️</span>
     </footer>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </body>
 </html>
