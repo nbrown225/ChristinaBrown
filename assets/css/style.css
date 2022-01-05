@@ -1,4 +1,4 @@
-* {
+ {
     font: rgba(15, 14, 15, 0.431);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
@@ -7,8 +7,12 @@
 }
 
 body {
-    background: #5c5470; 
+    background-color: rgba(155, 119, 177, 0.596);
 }
+{
+    background-color: rgba(155, 119, 177, 0.596);
+}
+
 
 h1 {
     background: rgba(255,0,255,0.3);
@@ -91,6 +95,7 @@ margin-top: 40px;
 }
 */
 
+
 .recent-work {
     width: 70%;
     height: 65%;
@@ -122,8 +127,17 @@ a img {
     padding: 8px;
     border: 5px double black
 }
+#hide {
+    height: 150px;
+    width: fit-content;
+    block-size: fit-content;
+    background-color: #644277;
+    margin: 20px;
+    display: none;
+    border: double rgb(67, 150, 118) 10px;
+}
 
-.example img {
+#example img {
     display: block;
     margin-left: auto;
     margin-right: auto;
